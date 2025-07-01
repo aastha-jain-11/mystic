@@ -1,6 +1,8 @@
 import React from "react";
 import { Award, Heart, Star, Sparkles, Moon, Sun } from "lucide-react";
 import SacredGeometry from "../components/SacredGeometry";
+import img4 from '../images/img4.jpg';
+
 
 const AboutPage = () => {
   const certifications = [
@@ -98,7 +100,7 @@ const AboutPage = () => {
             <div className="relative animate-scale-in">
               <div className="bg-gradient-to-br from-accent-500/20 to-primary-500/20 rounded-3xl p-8 backdrop-blur-md border border-white/20 relative">
                 <img
-                  src="images/img4.jpg"
+                  src={img4}
                   alt="Spiritual numerology consultation"
                   className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                 />

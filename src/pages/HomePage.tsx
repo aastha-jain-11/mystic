@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Calendar, BookOpen, User, Star, Sparkles, Moon } from "lucide-react";
 import SacredGeometry from "../components/SacredGeometry";
+import img3 from '../images/img3.jpg';
 
 const HomePage = () => {
   const testimonials = [
@@ -87,7 +88,7 @@ const HomePage = () => {
               <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                 {/* Image */}
                 <img
-                  src="/images/img3.jpg"
+                  src={img3}
                   alt="Sacred Numerology"
                   className="w-full md:w-1/3 rounded-xl shadow-lg object-cover"
                 />
