@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Calendar, BookOpen, User, Star, Sparkles, Moon } from "lucide-react";
 import SacredGeometry from "../components/SacredGeometry";
-import img3 from '../images/img3.jpg';
+import img3 from '../images/img3.JPG';
 
 const HomePage = () => {
   const testimonials = [

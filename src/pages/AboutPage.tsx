@@ -1,7 +1,7 @@
 import React from "react";
 import { Award, Heart, Star, Sparkles, Moon, Sun } from "lucide-react";
 import SacredGeometry from "../components/SacredGeometry";
-import img4 from '../images/img4.jpg';
+import img4 from '../images/img4.JPG';
 
 
 const AboutPage = () => {
